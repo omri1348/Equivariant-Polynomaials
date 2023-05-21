@@ -1,0 +1,33 @@
+name: ''
+project: 'equivariant polynomials'
+
+dataset: ''
+
+use_poly_data: True
+d_expressive: 6
+normalize_poly: 'none'
+normalize_features: True
+
+model: ppgn
+
+input_dim: 0
+hidden_dim: 95
+suffix_dim: 95
+out_dim: 1
+depth: 8
+
+epochs: 1000
+
+lr_reduce_factor: 0.5
+lr_schedule_patience: 10
+
+subset: True
+
+batch_size: 128
+lr: 2e-3
+min_lr: 1e-5
+optimizer: lamb
+
+wandb: True
+
+seed: -1
