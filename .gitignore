@@ -1,0 +1,5 @@
+outputs/
+wandb/
+data/ZINC/*
+models/__pycache__/
+__pycache__/
