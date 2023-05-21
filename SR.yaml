@@ -1,0 +1,19 @@
+
+dataset: SR
+d_name: ''
+
+use_poly_data: True
+d_expressive: 6
+
+model: ppgn
+
+input_dim: 1
+hidden_dim: 75
+suffix_dim: 55
+out_dim: 16
+depth: 4
+
+
+batch_size: 128
+
+seed: -1
